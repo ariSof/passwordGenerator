@@ -19,7 +19,7 @@ function generatePassword() {
   isLowercase = prompt("Would you like lowercase letters? (y/n)", "y");
   isUppercase = prompt("Would you like Capital letters? (y/n)", "n");
   isNumeric = prompt("Would you like numbers in your password? (y/n)", "n");
-  isSpecial = prompt("wWould you like special characters? (y/n)", "n");
+  isSpecial = prompt("Would you like special characters? (y/n)", "n");
 
   //for each true item, append array to create a bigger array to meet password criteria
   if(isLowercase === 'y') {
